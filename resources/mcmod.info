@@ -1,0 +1,16 @@
+[
+{
+  "modid": "crashtopia",
+  "name": "Crashtopia",
+  "description": "Crashtopia an evolution in crafting.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BoomBangCrash"],
+  "credits": "Boom Bang Crash www.youtube.com/c/boombangcrashed",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
