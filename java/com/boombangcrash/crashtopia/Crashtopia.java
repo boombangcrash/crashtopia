@@ -1,4 +1,4 @@
-package com.boombangcrash.crashtopia	;
+package com.boombangcrash.crashtopia;
 
 import com.boombangcrash.crashtopia.proxy.CommonProxy;
 

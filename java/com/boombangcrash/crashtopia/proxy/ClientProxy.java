@@ -1,5 +1,7 @@
 package com.boombangcrash.crashtopia.proxy;
 
+import com.boombangcrash.crashtopia.items.ItemRenderRegister;
+
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -14,6 +16,7 @@ public class ClientProxy extends CommonProxy {
 	@Override
 	public void init(FMLInitializationEvent e) {
 		super.init(e);
+		ItemRenderRegister.registerItemRenderer();
 	}
 	
 	public void postInit(FMLPostInitializationEvent e) {
