@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "crashtopia:blocks/furnace_top",
+        "front": "crashtopia:blocks/furnace_front_off",
+        "side": "crashtopia:blocks/furnace_side"
+    }
+}

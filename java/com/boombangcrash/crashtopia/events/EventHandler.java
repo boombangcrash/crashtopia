@@ -20,12 +20,5 @@ public class EventHandler {
 	@SubscribeEvent
 	public void onNeighborNotify(NeighborNotifyEvent event)
 	{
-		
-		System.out.println(event.getNotifiedSides());
-		if(event.getWorld().getBlockState(event.getPos()).getBlock().getUnlocalizedName().equals(Blocks.WATER.getUnlocalizedName()))
-		{
-			event.getWorld().setBlockState(event.getPos(), BlockRegistry.blockMud.getDefaultState(), 2);
-		}
-
 	}
 }

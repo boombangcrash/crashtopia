@@ -10,11 +10,16 @@ public class BlockRegistry
 {
 	public static Block blockBase;
 	public static Block blockMud;
+	public static Block blockBakedMud;
+	public static Block blockBrickFurnace;
 	
 	public static void registerBlocks()
 	{		
 		registerBlock(blockBase = new BlockBase(Material.ROCK, "base_block", 1.0f, 1.0f), "base_block");
 		registerBlock(blockMud = new BlockMud(Material.GROUND, "mud_block", 1.0f, 1.0f), "mud_block");
+		registerBlock(blockBakedMud = new BlockBakedMud(Material.GROUND, "bakedmud_block", 1.0f, 1.0f), "bakedmud_block");
+		
+		//registerBlock(blockBrickFurnace = new BlockBrickFurnace(false), "brickfurnace_block");
 	}
 	
 	public static void registerBlock(Block block, String blockName)

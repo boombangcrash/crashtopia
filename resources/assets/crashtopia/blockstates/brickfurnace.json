@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "crashtopia:brickfurnace" },
+        "facing=south": { "model": "crashtopia:brickfurnace", "y": 180 },
+        "facing=west":  { "model": "crashtopia:brickfurnace", "y": 270 },
+        "facing=east":  { "model": "crashtopia:brickfurnace", "y": 90 }
+    }
+}

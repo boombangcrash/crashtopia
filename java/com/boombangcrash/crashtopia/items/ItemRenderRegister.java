@@ -13,8 +13,13 @@ public class ItemRenderRegister
 	public static void registerItemRenderer()
 	{
 		regItem(BlockRegistry.blockBase);
-		regItem(BlockRegistry.blockMud);		
+		regItem(BlockRegistry.blockMud);	
+		regItem(BlockRegistry.blockBakedMud);
+		regItem(BlockRegistry.blockBrickFurnace);
+		
 		regItem(ItemRegistry.itemBasePickaxe);
+		regItem(ItemRegistry.itemMudBall);
+		regItem(ItemRegistry.itemMudBrick);
 	}
 	
 	public static void regItem(Block block)

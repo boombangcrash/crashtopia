@@ -10,9 +10,9 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class BlockMud extends Block 
+public class BlockBakedMud extends Block 
 {
-	public BlockMud(Material material, String unlocalizedName, float hardness, float resistance)
+	public BlockBakedMud(Material material, String unlocalizedName, float hardness, float resistance)
 	{
 		super(material.GROUND);
 		this.setUnlocalizedName(unlocalizedName);
@@ -20,20 +20,4 @@ public class BlockMud extends Block
 		this.setHardness(hardness);
 		this.setResistance(resistance);
 	}
-    /**
-     * Get the Item that this Block should drop when harvested.
-     */
-    public Item getItemDropped(IBlockState state, Random rand, int fortune)
-    {
-        return ItemRegistry.itemMudBall;
-    }
-
-    /**
-     * Returns the quantity of items to drop on block destruction.
-     */
-    public int quantityDropped(Random random)
-    {
-        return 4;
-    }
-	
 }

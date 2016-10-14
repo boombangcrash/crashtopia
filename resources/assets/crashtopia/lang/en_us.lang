@@ -1,2 +1,7 @@
 tile.base_block.name=Base Block
 tile.mud_block.name=Mud Block
+tile.bakedmud_block.name=Baked Mud Block
+tile.brickfurnace_block.name=Brick Furnace
+
+item.mud_ball.name=Mud Ball
+item.mud_brick.name=Mud Brick

@@ -2,6 +2,7 @@ package com.boombangcrash.crashtopia.proxy;
 
 import com.boombangcrash.crashtopia.blocks.BlockRegistry;
 import com.boombangcrash.crashtopia.items.ItemRegistry;
+import com.boombangcrash.crashtopia.items.crafting.RecipesCrafting;
 import com.boombangcrash.crashtopia.events.EventHandler;
 
 import net.minecraftforge.common.MinecraftForge;
@@ -15,6 +16,7 @@ public class CommonProxy {
 	{
 		BlockRegistry.registerBlocks();
 		ItemRegistry.registerItems();	
+		RecipesCrafting.addRecipes();
 	}
 	
 	public void init(FMLInitializationEvent e)
